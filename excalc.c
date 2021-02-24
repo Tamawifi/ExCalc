@@ -6,7 +6,7 @@ int main (void) {
     int funcnum = 0;
 
     printf("このプログラムでは、資格試験の問題でよく見られる計算ができます。\n");
-    printf("（現在作成中、今後昨日追加予定）\n\n");
+    printf("（現在作成中、今後機能追加予定）\n\n");
     printf("次のうち、呼び出したい機能の番号を選んでください\n");
     printf("1:シンプル電卓, 2:簿記検定関連, 3:情報処理技術者試験関連\n");
     printf("注意:現在1の機能のみ実装されています\n");
@@ -37,7 +37,7 @@ void simplecalc () {
     printf("数B : ");
     scanf("%d", &b);        
     
-    printf("\n次に加えたい操作を選んでください\n");
+    printf("\n次に行いたい操作を選んでください\n");
     printf("1:加算, 2:減算, 3:乗算, 4:除算\n");
     scanf("%d", &calcfunc);
     switch (calcfunc) {
